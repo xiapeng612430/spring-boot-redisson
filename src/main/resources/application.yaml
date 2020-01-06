@@ -1,1 +1,13 @@
-
+spring:
+  redis:
+    database: 8
+    host: 192.168.1.10
+    port: 6379
+    password: jredis1206a
+    maxActive: 600
+    maxTotal: 600
+    maxWaitMillis: 5000
+    maxIdle: 30
+    minIdle: 8
+    timeout: 3000
+    testOnBorrow: true
